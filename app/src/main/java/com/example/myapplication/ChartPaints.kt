@@ -41,6 +41,25 @@ class ChartPaints(context: Context) {
         textSize = 32f
     }
 
+    val crosshairPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+        color = Color.RED
+        style = Paint.Style.STROKE
+        strokeWidth = 2f
+        isAntiAlias = true
+    }
+
+    val tooltipBackgroundPaint = Paint().apply {
+        color = Color.BLACK
+        style = Paint.Style.FILL
+        isAntiAlias = true
+    }
+
+    val axisTextPaint = Paint().apply {
+        color = Color.DKGRAY
+        textSize = 32f
+        isAntiAlias = true
+    }
+
     val pointPaint = Paint(Paint.ANTI_ALIAS_FLAG)
 
     val areaPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {

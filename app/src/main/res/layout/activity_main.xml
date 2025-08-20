@@ -17,13 +17,13 @@
         <com.example.myapplication.InvestmentChartView
             android:id="@+id/chartView"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="350dp"
             app:lineColor="@android:color/holo_blue_dark"
             app:areaStartColor="@android:color/holo_blue_light"
             app:areaEndColor="@android:color/transparent"
             app:pointColor="#1E3A8A"
             app:gridMode="full"
-            app:showPoints="false"
+            app:showPoints="true"
             app:paintGraphArea="false"
             app:textSize="14sp"
             app:yLabelMargin="20dp"/>

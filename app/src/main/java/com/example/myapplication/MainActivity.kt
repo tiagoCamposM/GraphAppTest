@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         val chartView = findViewById<InvestmentChartView>(R.id.chartView)
 
 
-        val timeValues = (0..5).map { it.toFloat() }
+        val timeValues = (0..10).map { it.toFloat() }
        // val returns = timeValues.map { (0..100).random().toFloat() }
         val returns = timeValues.map { it*it }
         chartView.updateData(timeValues, returns)
