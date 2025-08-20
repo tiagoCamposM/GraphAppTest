@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="axis_color">#000000</color>
+    <color name="grid_color">#C8C8C8</color>
+    <color name="line_color">#0046C0</color>
+    <color name="area_gradient_start">#BFCCEC</color>
+    <color name="area_gradient_end">#BFCCEC</color>
+    <color name="point_border_color">#1E3A8A</color>
+    <color name="point_inner_color">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+</resources>

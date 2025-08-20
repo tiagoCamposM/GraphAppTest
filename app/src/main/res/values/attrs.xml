@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InvestmentChartView">
+        <attr name="gridMode" format="enum">
+            <enum name="none" value="0" />
+            <enum name="horizontal" value="1" />
+            <enum name="full" value="2" />
+        </attr>
+        <attr name="lineColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="yLabelMargin" format="dimension"/>
+        <attr name="areaStartColor" format="color"/>
+        <attr name="areaEndColor" format="color"/>
+        <attr name="pointColor" format="color"/>
+        <attr name="showPoints" format="boolean" />
+        <attr name="paintGraphArea" format="boolean" />
+    </declare-styleable>
+
+</resources>
