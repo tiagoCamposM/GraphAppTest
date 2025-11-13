@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="grafico">Grafico</string>
+    <string name="input_search">Input search</string>
+    <string name="selecione_o_item">Selecione o item</string>
+    <string name="selecione_o_pa_s">Selecione o país</string>
+    <string name="nomes">Nomes</string>
+    <string name="pais">Pais</string>
 </resources>

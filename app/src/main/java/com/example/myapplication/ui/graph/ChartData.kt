@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.ui.graph
 
 import android.graphics.PointF
 

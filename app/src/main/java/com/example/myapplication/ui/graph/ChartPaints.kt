@@ -1,8 +1,9 @@
-package com.example.myapplication
+package com.example.myapplication.ui.graph
 
 import android.content.Context
 import android.graphics.*
 import androidx.core.content.ContextCompat
+import com.example.myapplication.R
 
 class ChartPaints(context: Context) {
 

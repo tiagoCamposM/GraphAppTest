@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.ui.graph
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -6,6 +6,7 @@ import android.graphics.*
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
+import com.example.myapplication.R
 
 class InvestmentChartView @JvmOverloads constructor(
     context: Context,

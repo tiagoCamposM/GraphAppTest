@@ -4,30 +4,20 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp">
 
-    <androidx.cardview.widget.CardView
-        app:cardCornerRadius="12dp"
-        android:padding="16dp"
-        android:layout_margin="16dp"
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/buttonGraph"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <com.example.myapplication.InvestmentChartView
-            android:id="@+id/chartView"
-            android:layout_width="match_parent"
-            android:layout_height="350dp"
-            app:lineColor="@android:color/holo_blue_dark"
-            app:areaStartColor="@android:color/holo_blue_light"
-            app:areaEndColor="@android:color/transparent"
-            app:pointColor="#1E3A8A"
-            app:gridMode="full"
-            app:showPoints="true"
-            app:paintGraphArea="false"
-            app:textSize="14sp"
-            app:yLabelMargin="20dp"/>
-    </androidx.cardview.widget.CardView>
+        android:layout_height="wrap_content"
+        android:text="@string/grafico"/>
 
+    <Button
+        android:id="@+id/inputSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input_search"/>
 
 </LinearLayout>

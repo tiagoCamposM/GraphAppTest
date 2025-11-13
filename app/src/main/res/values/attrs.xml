@@ -16,4 +16,9 @@
         <attr name="paintGraphArea" format="boolean" />
     </declare-styleable>
 
+    <declare-styleable name="SearchableDropdown">
+        <attr name="threshold" format="integer" />
+        <attr name="hint" format="string" />
+    </declare-styleable>
+
 </resources>
